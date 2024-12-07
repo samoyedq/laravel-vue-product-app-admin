@@ -56,10 +56,7 @@
     ```bash
         npm run dev
     ```
-- Install Dependencies
-    ```bash
-        npm install
-    ```
+
 
 ### Project Features
 - Product Management
