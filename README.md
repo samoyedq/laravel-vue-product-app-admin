@@ -25,6 +25,7 @@
 
 ## Backend Setup
 - Update the database configuration
+    First, create a database in phpMyAdmin and note down its name. Then, assign that name to the DB_DATABASE field in your .env file.
     ```typescript
         DB_CONNECTION=mysql
         DB_HOST=127.0.0.1
