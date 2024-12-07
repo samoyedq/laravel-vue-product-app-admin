@@ -62,15 +62,6 @@
     ```
 
 
-### Project Features
-- Product Management
-- Navigate to the "Products" section from the sidebar.
-- Perform CRUD operations for products.
-- Support for multiple images with preview and delete functionality.
-### Video Management
-- Navigate to the "Videos" section from the sidebar.
-- Play videos dynamically fetched from the public/videos folder.
-- Test video changes using the "Change Video" button.
 
 
 <!-- - [Simple, fast routing engine](https://laravel.com/docs/routing).
