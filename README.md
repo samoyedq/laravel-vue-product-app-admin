@@ -13,8 +13,7 @@
 ## Installation Process
 - Backend Requirements:
 
-    XAMPP
-    PHP (>= 8.0)                                                Composer                                                        phpMyAdmin
+    XAMPP                                                           PHP (>= 8.0)                                         Composer                                                      phpMyAdmin
 
 - Frontend Requirements:
     
