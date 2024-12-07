@@ -13,11 +13,15 @@
 ## Installation Process
 - Backend Requirements:
 
-    XAMPP                                                           PHP (>= 8.0)                                         Composer                                                      phpMyAdmin
+    1. XAMPP                                                       
+    2. PHP (>= 8.0)  
+    3. Composer
+    4. phpMyAdmin                                                  
 
 - Frontend Requirements:
     
-    Node.js (>= 16.x)                                               npm (>= 7.x)
+    1. Node.js (>= 16.x) 
+    2. npm (>= 7.x)                                           
 
 ## Backend Setup
 - Update the database configuration
