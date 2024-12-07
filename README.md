@@ -1,23 +1,75 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## Prerequisite
+</p> -->
+# Disclaimer!
+- This project is intended for PRAXXYS Backend Examination.
+- Created by: Daniel Sebastian G. Quilatan
+- [LinkedIn Profile](https://www.linkedin.com/in/daniel-sebastian-quilatan-168062284/)
+## Installation Process
 - Backend Requirements:
 
-    PHP (>= 8.0)
-    Composer
-    MySQL (or any supported database)
+    XAMPP
+    PHP (>= 8.0)                                                Composer                                                        phpMyAdmin
 
 - Frontend Requirements:
+    
+    Node.js (>= 16.x)                                               npm (>= 7.x)
 
-    Node.js (>= 16.x)
-    npm (>= 7.x)
+## Backend Setup
+- Update the database configuration
+    ```typescript
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3306
+        DB_DATABASE=your_database_name
+        DB_USERNAME=your_username
+        DB_PASSWORD=your_password
+    ```
+- Generate Application Key in Terminal (product-app)
+    ```bash
+        php artisan key:generate
+    ```
+- Run Database Migrations
+    ```bash
+        php artisan migrate
+    ```
+- Run Database Seed
+    ```bash
+        php artisan db:seed
+    ```
+- Run the Application 
+    ```bash
+        php artisan serve
+    ```
+
+## Frontend Setup
+- Install Dependencies (product-app)
+    ```bash
+        npm install
+    ```
+- Compile all the assets
+    ```bash
+        npm run dev
+    ```
+- Install Dependencies
+    ```bash
+        npm install
+    ```
+
+### Project Features
+- Product Management
+- Navigate to the "Products" section from the sidebar.
+- Perform CRUD operations for products.
+- Support for multiple images with preview and delete functionality.
+### Video Management
+- Navigate to the "Videos" section from the sidebar.
+- Play videos dynamically fetched from the public/videos folder.
+- Test video changes using the "Change Video" button.
 
 
 <!-- - [Simple, fast routing engine](https://laravel.com/docs/routing).
@@ -28,11 +80,11 @@
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting). -->
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<!-- ## Learning Laravel
+
+Laravel has the most extensive and thorough [documentation](https:laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
 You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
@@ -72,4 +124,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
