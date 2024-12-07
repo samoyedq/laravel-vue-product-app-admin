@@ -56,7 +56,7 @@
       password_confirmation: password_confirmation.value
     }).then(response => {
       localStorage.setItem('token', response.data.token);
-      // Go to dashboard after registration
+  
       router.push('/login');
     }).catch(e => {
       alert('Registration failed. Check console for details.');
